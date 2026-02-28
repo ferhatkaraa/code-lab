@@ -1,6 +1,6 @@
 # Python Mini Projeler ve Uygulamalar
 
-Bu depo, Python ile geliştirilmiş çeşitli seviyelerdeki mini projeleri, oyunları ve algoritmik çözümleri içermektedir. Terminal tabanlı basit uygulamalardan, Tkinter kullanılarak geliştirilmiş masaüstü oyunlarına, modüler mimariye sahip kelime bulmacalarına ve matematiksel hesaplama araçlarına kadar uzanan geniş bir yelpazeyi kapsar.
+Bu depo, Python ile geliştirilmiş çeşitli seviyelerdeki mini projeleri, oyunları ve algoritmik çözümleri içermektedir. Terminal tabanlı basit uygulamalardan, Tkinter kullanılarak geliştirilmiş masaüstü oyunlarına, modüler mimariye sahip kelime bulmacalarına, güvenlik algoritmalarına ve matematiksel hesaplama araçlarına kadar uzanan geniş bir yelpazeyi kapsar.
 
 ## 🚀 Projeler
 
@@ -47,6 +47,19 @@ Sözlük (`dict`) veri yapısı kullanılarak oluşturulmuş basit bir banka yö
 ### 7. Zamanlayıcı ve Alarm Sistemi
 `alarm.py`
 Belirtilen süre boyunca geri sayım yapan veya spesifik bir saatte tetiklenen alarm uygulaması. Süre dolduğunda sistemdeki `alarm.mp4` dosyasını otomatik olarak çalıştırarak kullanıcıyı uyarır. (Çalışması için aynı dizinde `alarm.mp4` medya dosyasının bulunması gereklidir).
+
+### 8. RSA Şifreleme Algoritması
+`RSA.py` ve `metin.txt`
+Kriptografinin temel taşlarından biri olan RSA algoritmasının Python ile uygulanmış hali. 
+* **Özellikler:** İletişimi güvenli hale getirmek için asimetrik şifreleme mantığını kullanır. Şifrelenecek veya deşifre edilecek veriler, dizindeki `metin.txt` dosyası üzerinden okunup işlenebilir.
+
+### 9. Nöbet / Sıra Çizelgeleyici
+`nöbet.py`
+Kişiler veya gruplar arasında görev, nöbet veya sıraya dayalı çizelgeler oluşturmak için tasarlanmış otomasyon betiği. Organizasyonel işleri kolaylaştırmayı ve adil bir dağılım yapmayı amaçlar.
+
+### 10. Arama Aracı
+`ara.py`
+Verilen veri setleri, listeler veya metinler içerisinde hızlı arama yapmayı sağlayan, temel arama algoritmalarının mantığını barındıran script.
 
 ---
 
