@@ -1,6 +1,6 @@
 # Python Mini Projeler ve Uygulamalar
 
-Bu depo, Python ile geliştirilmiş çeşitli seviyelerdeki mini projeleri, oyunları ve algoritmik çözümleri içermektedir. Terminal tabanlı basit uygulamalardan, Tkinter kullanılarak geliştirilmiş masaüstü oyunlarına, modüler mimariye sahip kelime bulmacalarına, güvenlik algoritmalarına ve matematiksel hesaplama araçlarına kadar uzanan geniş bir yelpazeyi kapsar.
+Bu depo, Python ile geliştirilmiş çeşitli seviyelerdeki mini projeleri, oyunları ve algoritmik çözümleri içermektedir. Terminal tabanlı basit uygulamalardan, Tkinter kullanılarak geliştirilmiş masaüstü oyunlarına, modüler mimariye sahip kelime bulmacalarına, güvenlik algoritmalarına, dosya otomasyonlarına ve matematiksel hesaplama araçlarına kadar uzanan geniş bir yelpazeyi kapsar.
 
 ## 🚀 Projeler
 
@@ -11,7 +11,7 @@ Klasik Boggle kelime bulmaca oyununun Python ile geliştirilmiş, modüler bir y
 * **`frekans.py`:** Harflerin dildeki kullanım sıklıklarına (frekanslarına) göre tahtaya mantıklı bir şekilde dağıtılmasını hesaplayan algoritma.
 * **`kontroller.py`:** Oyuncunun bulduğu kelimenin tahtada yan yana/çapraz harflerle oluşturulup oluşturulamadığını ve geçerli bir kelime olup olmadığını denetleyen mantık dosyası.
 * **`data.txt`:** Kelime doğrulaması için kullanılan yerel sözlük (veri tabanı) dosyası.
-* **`proje diyagramı.docx`:** Projenin çalışma mantığını, algoritmik akışını ve modüller arası ilişkileri anlatan detaylı dokümantasyon.
+* **`proje diyagramı.docx`:** Projenin çalışma mantığını, algalgoritmik akışını ve modüller arası ilişkileri anlatan detaylı dokümantasyon.
 
 ### 2. Taş-Kağıt-Makas Oyunu (GUI)
 `taş-kağıt-makas.py`
@@ -31,7 +31,7 @@ Türkiye'deki illerin ve plaka kodlarının tahmin edilmesine dayalı, zamana ka
 
 ### 4. Matris Determinant Hesaplayıcı
 `matriscoz.py`
-Herhangi bir boyuttaki ($N \times N$) kare matrisin determinantını rekürsif (özyinelemeli) bir fonksiyon kullanarak hesaplayan matematiksel bir algoritma. Veri yapıları ve algoritma analizi pratiği için ideal bir örnektir.
+Herhangi bir boyuttaki (N x N) kare matrisin determinantını rekürsif (özyinelemeli) bir fonksiyon kullanarak hesaplayan matematiksel bir algoritma. Veri yapıları ve algoritma analizi pratiği için ideal bir örnektir.
 
 ### 5. Terminal Oyunları (Sayı ve Renk Tahmini)
 `tahmin oyunu.py`
@@ -60,6 +60,22 @@ Kişiler veya gruplar arasında görev, nöbet veya sıraya dayalı çizelgeler 
 ### 10. Arama Aracı
 `ara.py`
 Verilen veri setleri, listeler veya metinler içerisinde hızlı arama yapmayı sağlayan, temel arama algoritmalarının mantığını barındıran script.
+
+### 11. Mors ve İkili Sistem Dönüştürücü (Encoder/Decoder)
+`alfabe.csv` ve `mesaj.txt`
+Metinleri Mors alfabesine veya İkili (Binary) sisteme çeviren ve şifrelenmiş metinleri tekrar normal yazıya dönüştüren veri işleme aracı.
+* **Özellikler:**
+  * `pandas` kütüphanesi kullanılarak `alfabe.csv` dosyasındaki eşleşmelere göre hızlı dönüştürme (parsing) işlemi yapar.
+  * Türkçe karakter desteği, büyük/küçük harf duyarlılığı ve yeni satır (`\n`) gibi istisnai (edge case) durumların kontrolünü içerir.
+  * Tüm okuma ve yazma işlemleri `mesaj.txt` dosyası üzerinden otomatik olarak gerçekleşir.
+
+### 12. Özel 8-Bit Metin Şifreleme Aracı
+`sakla.py`
+Klasördeki metin dosyalarını bulup, baştan tasarlanmış özel bir 8-bitlik (1 byte) formatlama algoritması ile şifreleyen veya çözen otomasyon betiği.
+* **Özellikler:**
+  * Kendi içerisinde tanımlı `DATA` sözlüğünü kullanarak her karakteri (noktalama, büyük/küçük harf durumları dahil) özel bir 8-bitlik diziye çevirir.
+  * Bulunduğu dizindeki tüm `.txt` dosyalarını `os` modülü ile otomatik olarak tarar.
+  * Şifrelediği dosyaların ismine `$` işareti ekleyerek işaretler, kod çözme (decode) işleminde bu işareti tanıyarak dosyaları otomatik olarak orijinal haline döndürür.
 
 ---
 
