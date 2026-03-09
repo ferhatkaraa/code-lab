@@ -1,0 +1,16 @@
+ahmet : 123123
+burak : 123456
+ceyhun : 123789
+deniz : 456123
+emir: 4556456
+ferhat : 000000
+gamze : 456789
+haluk : 789123
+ırmak : 789456
+kerem : 789789
+ferhat : 100000
+yasin : 102030
+derin : 938
+yasin : 1111
+ogrenci : 1
+ahmetselim : 123

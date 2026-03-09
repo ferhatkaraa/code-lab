@@ -1,0 +1,11 @@
+nisanur : 20150423
+selami : 454545
+erdem : 0
+ferhat : 1234
+ogretmen : 1
+salih : 2
+osman : 3
+elif : 4
+merve : 9
+ali : 123
+ferhatkara : 123
